@@ -6,7 +6,7 @@ description: Python workflow for detecting 2D topological structures of insect w
 tags: TDA Python morphology insect
 categories: workflow
 thumbnail: assets/img/post/20250701/thumbnail.png
-toc: 
+toc:
   sidebar: left
 ---
 
@@ -21,12 +21,16 @@ This post walks through a Python pipeline for analyzing insect wing venation usi
 ---
 
 ## Procedure
+
 Outline:
-- Use *scikit-image* to preprocess images
-- Use *scikit-TDA* (*ripser.py* and *persim*) for topological data analysis
+
+- Use _scikit-image_ to preprocess images
+- Use _scikit-TDA_ (_ripser.py_ and _persim_) for topological data analysis
 
 ### 1. Process images
+
 Let's use a forewing of dragonfly as the example. The image preprocessing includes the following steps:
+
 1. Load image in grayscale
 2. Denoise
 3. Convert to binary image
@@ -41,6 +45,7 @@ from skimage.restoration import denoise_bilateral
 from skimage.filters import threshold_local
 from skimage.morphology import skeletonize
 ```
+
 #### 1.1 Load image in grayscale
 
 ```python
@@ -68,6 +73,7 @@ Instead of using a fixed global threshold (which may fail under uneven lighting)
 local_thresh = threshold_local(img_denoise, block_size=35, offset=.001)
 img_binary = img_denoise < local_thresh
 ```
+
 ![image](/assets/img/post/20250701/06.png){:width="80%"}
 
 #### 1.4 Skeletonize
@@ -154,6 +160,6 @@ The 15 orange dots higher up in the persistence diagram likely correspond to the
 ## Refleciton
 
 - Point sampling density significantly affects the persistence diagram, especially the Birth values of H1 features. Choosing the sampling level is a trade-off between computational efficiency and topological fidelity.
-    - In densely sampled images (e.g. cicada), true loop structures (wing windows) tend to appear as a vertical line of H1 points with low Birth values but varying Lifetime. Those with higher Birth values are likely to represent noise.
-    - In contrast, sparser sampling spreads H1 features more broadly across the birth axis (e.g. grasshopper), making it harder to distinguish true biological structures from noise.
+  - In densely sampled images (e.g. cicada), true loop structures (wing windows) tend to appear as a vertical line of H1 points with low Birth values but varying Lifetime. Those with higher Birth values are likely to represent noise.
+  - In contrast, sparser sampling spreads H1 features more broadly across the birth axis (e.g. grasshopper), making it harder to distinguish true biological structures from noise.
 - In this particular case of analyzing wing venation with TDA, the actual venation information is probably mostly captured in the lifetime of H1 features (distribution along the y-axis), whereas the birth axis reflect point sampling density and information about how likely the signals are noise.

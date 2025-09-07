@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Teaching has been a deeply rewarding aspect of my doctoral journey, where I learned a great deal from both inspirational mentors and students. I gained experience in engaging with diverse audiences, including lower- and upper-level college students, graduate students, children and the general public. 
+description: Teaching has been a deeply rewarding aspect of my doctoral journey, where I learned a great deal from both inspirational mentors and students. I gained experience in engaging with diverse audiences, including lower- and upper-level college students, graduate students, children and the general public.
 nav: true
 nav_order: 3
 display_categories: [University of Maryland, Outreach]

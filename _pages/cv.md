@@ -14,7 +14,7 @@ toc:
 > Email | sychia@umd.edu
 > Location | College Park, Maryland, USA
 > Research interests | Ecoinformatics, Macroecology, Macroevolution, Sustainability
-{: .box1 }
+> {: .box1 }
 
 ### Education
 
@@ -27,16 +27,16 @@ toc:
 > ---
 >
 > 2010--2015 | **B.S. Life Science**<br>National Taiwan University, Taiwan
-{: .box1 }
+> {: .box1 }
 
 ### Employment history
 
->2019--2021 | **Research Assistant**<br>Biodiversity Research Center, Academia Sinica, Taiwan<br>[Advisor: Mao-Ning Tuanmu (Ecoacoustics and Spatial Ecology Lab)](https://biodiv.tw/lab-Eco-Acoustics_and_Spatial_Ecology_[EASE]_Lab)
+> 2019--2021 | **Research Assistant**<br>Biodiversity Research Center, Academia Sinica, Taiwan<br>[Advisor: Mao-Ning Tuanmu (Ecoacoustics and Spatial Ecology Lab)](https://biodiv.tw/lab-Eco-Acoustics_and_Spatial_Ecology_[EASE]_Lab)
 >
 > ---
 >
->2017--2019 | **Assistant Engineer**<br>SGS Ltd., Taiwan<br>[Climate Change Adaptation Team](https://www.sgs.com.tw/en/service/page/85/2/86-environment-health-and-safety/504-climate-change-innovative-actions)
-{: .box1 }
+> 2017--2019 | **Assistant Engineer**<br>SGS Ltd., Taiwan<br>[Climate Change Adaptation Team](https://www.sgs.com.tw/en/service/page/85/2/86-environment-health-and-safety/504-climate-change-innovative-actions)
+> {: .box1 }
 
 ### Publications
 
@@ -55,7 +55,7 @@ toc:
 > ---
 >
 > Tsai P-Y, Ko C-J, **Chia SY**, Lu Y-J, Tuanmu M-N. (2021). New insights into the patterns and drivers of avian altitudinal migration from a growing crowdsourcing data source. [Ecography](https://doi.org/10.1111/ecog.05196).
-{: .box1 }
+> {: .box1 }
 
 > ##### Upcoming
 >
@@ -64,9 +64,10 @@ toc:
 > ---
 >
 > **Chia SY**, Tsai-Chen Y, Tuanmu M-N, Fagan WF. Evolution of enclosed nests in birds driven by predation and climate challenges. in review.
-{: .box1 }
+> {: .box1 }
 
 ### Presentations
+
 > ##### Talks
 >
 > 2025 | Ecological Society of America, Baltimore, MD, USA.
@@ -75,14 +76,14 @@ toc:
 > 2023 | American Ornithological Society and Society of Canadian Ornithologists, London, ON, Canada.
 > 2022 | Belmont Forum Climate Environment and Health Early Career Researcher Workshop, virtual.
 > 2021 | Congress of Animal Behavior and Ecology, Taiwan, virtual.
-{: .box1 }
+> {: .box1 }
 
 > ##### Posters
 >
 > 2024 | American Ornithological Society, Estes Park, CO, USA.
 > 2021 | Ecological Society of America, virtual.
 > 2020 | British Ecological Society, virtual.
-{: .box1 }
+> {: .box1 }
 
 ### Honors and awards
 
@@ -94,10 +95,10 @@ toc:
 > 2023 | Outstanding Graduate Teaching Assistant Award, UMD ($331)
 > 2022 | Global STEWARDS Fellowship at UMD, National Science Foundation (fully funded one-year traineeship and research trip to Nepal)
 > 2021--2022 | Dean’s Fellowship, UMD ($5,000)
-{: .box1 }
+> {: .box1 }
 
 > ##### Travel grants
-> 
+>
 > 2024 | Jacob K. Goldhaber Travel Award, UMD ($400)
 > 2024 | Biology Department Travel Award, UMD ($750)
 > 2024 | Biological Sciences Graduate Program Travel Award, UMD ($500)
@@ -106,16 +107,16 @@ toc:
 > 2023 | International Conference Student Support Award, UMD ($500)
 > 2023 | American Ornithological Society Travel Award ($561)
 > 2021 | Ecological Society of America Registration Grant
-{: .box1 }
+> {: .box1 }
 
 ### Teaching
 
 > ##### University of Maryland
-> 
+>
 > HNUH258C Nature at Risk: Extinction, Consequences, and Strategies | Teaching assistant (Fall 2025)
 > BSCI462/BIOL708R Population Ecology | Guest lecturer (Spring 2025)<br>Teaching assistant (Spring 2024)
 > BSCI201 Human Anatomy and Physiology | Teaching assistant (Sping & Fall 2022, Spring & Fall 2023)
-{: .box1 }
+> {: .box1 }
 
 ### Service , outreach, non-academic projects
 
@@ -152,14 +153,15 @@ toc:
 > ---
 >
 > <details><summary>2014&nbsp;&nbsp; <b>Climate-adaptive strategies with organic tea farmers, Taiwan</b></summary><br>Collaborated with tea farmers to predict harvest timing with local microclimate station and to investigate the possibility of using selective weed cultivation to reduce weeding labor</details>
-{: .box1 }
+> {: .box1 }
 
 ### Skills
+
 > **Programming languages and software** <br>`R`&nbsp;&nbsp;&nbsp;`Python`&nbsp;&nbsp;&nbsp;`C#`&nbsp;&nbsp;&nbsp;`QGIS`&nbsp;&nbsp;&nbsp;`Markdown`&nbsp;&nbsp;&nbsp;`Git`&nbsp;&nbsp;&nbsp;`HTML & CSS`&nbsp;&nbsp;&nbsp;`Gurobi`
 >
 > ---
 >
-> **Ecological and computational skills**<br>`High-performance computing (HPC)`<br>`Topological data analysis`<br>`Linear programming`<br>`Phylogenetic comparative methods`<br>`Ancestral state reconstruction`<br>`Spatial data analysis`<br>`Biodiversity measurement`<br>`GPS animal movement data analysis` 
+> **Ecological and computational skills**<br>`High-performance computing (HPC)`<br>`Topological data analysis`<br>`Linear programming`<br>`Phylogenetic comparative methods`<br>`Ancestral state reconstruction`<br>`Spatial data analysis`<br>`Biodiversity measurement`<br>`GPS animal movement data analysis`
 >
 > ---
 >
@@ -168,4 +170,4 @@ toc:
 > ---
 >
 > **Other skills and credentials** <br>`WMA Wilderness First Responder`<br>`PADI Advanced Open Water Diver`<br>`NCMW Adult Mental Health First Aid certification`<br>[`Photography`](https://www.flickr.com/photos/stephaniechia/)
-{: .box1 }
+> {: .box1 }

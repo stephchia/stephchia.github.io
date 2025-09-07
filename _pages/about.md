@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -30,4 +30,4 @@ I grew up in Taiwan and studied biology at National Taiwan University, then earn
 
 Outside of research, I enjoy hiking and traveling, and occasionally biking, birding, scuba diving, and photography.
 
-If all goes as planned, I'll be graduating in Spring 2026, and I'd be glad to connect about research opportunities. 
+If all goes as planned, I'll be graduating in Spring 2026, and I'd be glad to connect about research opportunities.

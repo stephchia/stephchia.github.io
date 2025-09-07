@@ -1,9 +1,9 @@
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
-html { 
-//    font-size: 18px; 
-//    line-height: 1.6; 
+html {
+  //    font-size: 18px;
+  //    line-height: 1.6;
 }
 
 .zh {
@@ -141,8 +141,8 @@ blockquote {
       color: var(--global-danger-block-title);
     }
   }
-    
- /* box */
+
+  /* box */
   &.box1 {
     border: 1px solid;
     margin: 1.5em 0;
@@ -152,9 +152,9 @@ blockquote {
     border-color: var(--global-divider-color);
     background-color: var(--global-card-bg-color);
 
-    em, 
-    li, 
-    ul, 
+    em,
+    li,
+    ul,
     p,
     strong {
       color: var(--global-text-color);
@@ -168,7 +168,7 @@ blockquote {
     h6 {
       color: var(--global-text-color);
     }
-      
+
     table {
       td,
       th {
@@ -229,7 +229,6 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-
 // Citation
 
 .citation,
@@ -282,7 +281,7 @@ ul.task-list input[type="checkbox"] {
   p {
     color: var(--global-text-color-mild);
   }
-  
+
   a {
     color: inherit;
 
@@ -701,21 +700,58 @@ footer.sticky-bottom {
 
 // markdown in post
 /* Base body text inside the article */
-.post-content { font-size: 1rem; line-height: 1.6; margin-top: 1rem; margin-bottom: .75rem; }
+.post-content {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
 
 /* Headings inside the Markdown body */
-.post-content #markdown-content h1 { font-size: 3rem;  font-weight: 400; margin-top: 2rem; margin-bottom: .75rem; }
-.post-content #markdown-content h2 { font-size: 1.6rem;  font-weight: 400; margin-top: 2rem; margin-bottom: .75rem; }
-.post-content #markdown-content h3 { font-size: 1.4rem; font-weight: 400; margin-top: 2rem; margin-bottom: .75rem; }
-.post-content #markdown-content h4 { font-size: 1.2rem; font-weight: 400; margin-top: 2rem; margin-bottom: .75rem; }
-.post-content #markdown-content h5 { font-size: 1.1rem; font-weight: 400; margin-top: 2rem; margin-bottom: .75rem; }
-.post-content #markdown-content h6 { font-size: 0.9rem;  font-weight: 400; margin-top: 1rem; margin-bottom: .75rem; }
+.post-content #markdown-content h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.post-content #markdown-content h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.post-content #markdown-content h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.post-content #markdown-content h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.post-content #markdown-content h5 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.post-content #markdown-content h6 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
 
 .post-content #markdown-content ul,
-.post-content #markdown-content ol{
-  margin: .75rem 0 .75rem 0rem;
+.post-content #markdown-content ol {
+  margin: 0.75rem 0 0.75rem 0rem;
 }
-.post-content #markdown-content li + li{ margin-top: .25rem; }
+.post-content #markdown-content li + li {
+  margin-top: 0.25rem;
+}
 
 /* Top page/post title (from front matter `title:`) */
 //.post-title { font-size: 3rem; font-weight: 500; margin: 0 0 1rem; }
@@ -727,7 +763,6 @@ footer.sticky-bottom {
 //  line-height: 1;
 //  font-size: .8em;
 //}
-
 
 // diff2html - Fix for diff2html line number overflow
 
@@ -767,15 +802,22 @@ footer.sticky-bottom {
       border-radius: 24px;
     }
   }
-  
+
   .card-body .card-text {
     font-size: 1rem;
     font-weight: 100;
     color: var(--global-text-color-mild);
-      
-    p, ul, li, h4, h5, h6 { color: inherit; }
+
+    p,
+    ul,
+    li,
+    h4,
+    h5,
+    h6 {
+      color: inherit;
+    }
   }
-    
+
   .col {
     padding-bottom: 1rem;
   }
@@ -796,10 +838,10 @@ footer.sticky-bottom {
   }
 
   .subtopic {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 2em;
-  gap: 1em;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2em;
+    gap: 1em;
   }
 
   .subtopic-img {

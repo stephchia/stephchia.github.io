@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Public education meterials development
-description: 
-img: 
+description:
+img:
 importance: 1
 category: Outreach
 ---
+
 During my time at Academia Sinica, I worked with dedicated colleagues and undergraduates to create engaging educational materials, leading several of the projects including stick-on boards for kids to learn about natural and urban habitats of common birds in Taiwan, and an interactive online module “Are bats to blame for COVID-19?” designed to bust myths about the pandemic.
 
 I also love volunteering each year at the Maryland Day, where I got to share my love for science and nature with the public through fun activities.

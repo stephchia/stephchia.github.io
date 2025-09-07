@@ -6,7 +6,7 @@ description: A tutorial explaining concept of Marion et al.'s (2017) pairwise be
 tags: R community biodiversity
 categories: teaching
 thumbnail: /assets/img/post/20211026/thumbnail.png
-toc: 
+toc:
   sidebar: left
 ---
 
@@ -18,6 +18,7 @@ toc:
 ---
 
 ## Background
+
 ### Beta Diversity
 
 Beta diversity is the degree of differentiation among biological communities.
@@ -33,6 +34,7 @@ Say $\alpha$ is the species diversity of a community, and $\gamma$ is the total 
 However, as $\beta$ can range from $1$ to $N$, this measure is not comparable between systems with different $N$.
 
 ### Turnover Rate
+
 Turnover Rate provides a more standardized measure, defined as $$T=\dfrac{\beta-1}{N-1}$$ where $T$ ranges from 0 to 1. However, this measure is sensitive to sample size. Let's look at the following example.
 
 ![image](/assets/img/post/20211026/03.png){:width="50%"}
@@ -50,6 +52,7 @@ $$N=3,\ \ T=\dfrac{1.25-1}{3-1}=\dfrac{1}{8}$$
 $$N=2,\ \ T=\dfrac{1.25-1}{2-1}=\dfrac{1}{4}$$
 
 ### Pairwise Dissimilarily
+
 In order to resolve these problems, Marion et al. (2017) introduced pairwise beta diversity as a unbiased measure of species turnover. This is done by computing the turnover rate for every community pair, and then take the average.
 
 Let's look at the same example as the above, with 5 communities in the system. Every community pair ($N=2$) has a turnover rate:
@@ -98,11 +101,11 @@ turnover <- function(comm) {
   pg <- colSums(comm)/sum(comm)
   pq <- pz * log(pz)
   pq[is.na(pq)] <- 0
-  
+
   alpha <- exp(-sum(colSums(pq)) - log(nrow(pq)))
   gamma <- exp(-sum(pg[pg > 0] * log(pg[pg > 0])))
   beta <- gamma/alpha
-  
+
   turnover <- (beta - 1)/(nrow(comm) - 1)
   return(turnover)
 }
@@ -131,8 +134,8 @@ bee[1:6, 1:6] # check the first few columns of the first few samples
 
 # separate the dataset based on habitat types
 ag <- bee[grepl(".ag", rownames(bee), fixed=TRUE), ] # agriculture
-fo <- bee[grepl(".fo", rownames(bee), fixed=TRUE), ] # forest 
-ur <- bee[grepl(".ur", rownames(bee), fixed=TRUE), ] # urban 
+fo <- bee[grepl(".fo", rownames(bee), fixed=TRUE), ] # forest
+ur <- bee[grepl(".ur", rownames(bee), fixed=TRUE), ] # urban
 
 # check the first few columns of these datasets (there are 12 sites each)
 ag[, 1:4]
@@ -174,7 +177,6 @@ mean(sapply(comm.pairs(ur), turnover))
 - Q2-1: What can you say about the results?
 - Q2-2: Do you reach the same conclusion as the first method?
 
-
 **<<<<<<<<<<<<<< TIME REVERSAL <<<<<<<<<<<<<<**
 
 ### Scenario 2
@@ -197,7 +199,7 @@ turnover(fo)
 turnover(ur.incomplete)
 ```
 
-- Q3-1: What can you say about the results? 
+- Q3-1: What can you say about the results?
 - Q3-2: Do the turnover values change with sample size? (you can try different sample size with `ur[sample(1:12, 'your_sample_size'), ]`)
 
 Let's take one step forward and compute the N-community turnover of the urban samples for different sample sizes
@@ -228,7 +230,7 @@ mean(sapply(comm.pairs(ur.incomplete), turnover))
 - Q4-2: Do the turnover values change with sample size?
 
 ```r
-# compute the mean pairwise turnover for the urban samples for different sample size 
+# compute the mean pairwise turnover for the urban samples for different sample size
 # WARNING: this may take up to a few minutes to run
 turn_pw <- data.frame(matrix(NA, nrow = 11*10, ncol = 2))
 colnames(turn_pw) <- c("Number_of_sites", "Turnover")

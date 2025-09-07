@@ -31,23 +31,22 @@
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
 
-  --global-tip-block: #0084C7;
-  --global-tip-block-bg: #DFF1FE;
-  --global-tip-block-text: #0084C7;
-  --global-tip-block-title: #0084C7;
-  --global-warning-block: #F59E0B;
-  --global-warning-block-bg: #FDF7DC;
-  --global-warning-block-text: #F59E0B;
-  --global-warning-block-title: #F59E0B;
-  --global-danger-block: #EF4444;
-  --global-danger-block-bg: #FEECEC;
-  --global-danger-block-text: #EF4444;
-  --global-danger-block-title: #EF4444;
+  --global-tip-block: #0084c7;
+  --global-tip-block-bg: #dff1fe;
+  --global-tip-block-text: #0084c7;
+  --global-tip-block-title: #0084c7;
+  --global-warning-block: #f59e0b;
+  --global-warning-block-bg: #fdf7dc;
+  --global-warning-block-text: #f59e0b;
+  --global-warning-block-title: #f59e0b;
+  --global-danger-block: #ef4444;
+  --global-danger-block-bg: #feecec;
+  --global-danger-block-text: #ef4444;
+  --global-danger-block-title: #ef4444;
   --global-box1-border: #bbbbbb;
   --global-box1-bg: #ffffff;
   --global-box1-text: #215d42;
   --global-box1-title: #2d767d;
-
 
   #light-toggle-system {
     padding-left: 10px;
@@ -107,18 +106,18 @@ html[data-theme="dark"] {
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
-  --global-tip-block: #38ADE2;
-  --global-tip-block-bg: #2B363F;
-  --global-tip-block-text: #38ADE2;
-  --global-tip-block-title: #38ADE2;
-  --global-warning-block: #F59E0B;
-  --global-warning-block-bg: #3D372C;
-  --global-warning-block-text: #F59E0B;
-  --global-warning-block-title: #F59E0B;
-  --global-danger-block: #F77171;
-  --global-danger-block-bg: #4F2E30;
-  --global-danger-block-text: #F77171;
-  --global-danger-block-title: #F77171;
+  --global-tip-block: #38ade2;
+  --global-tip-block-bg: #2b363f;
+  --global-tip-block-text: #38ade2;
+  --global-tip-block-title: #38ade2;
+  --global-warning-block: #f59e0b;
+  --global-warning-block-bg: #3d372c;
+  --global-warning-block-text: #f59e0b;
+  --global-warning-block-title: #f59e0b;
+  --global-danger-block: #f77171;
+  --global-danger-block-bg: #4f2e30;
+  --global-danger-block-text: #f77171;
+  --global-danger-block-title: #f77171;
   --global-box1-border: #444444;
   --global-box1-bg: #202a30;
   --global-box1-text: #ffffff;

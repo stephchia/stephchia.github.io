@@ -30,7 +30,7 @@
       "studyType": "PhD Candidate",
       "startDate": "2021",
       "endDate": "2026",
-      "score": "10",
+      "score": "10"
     },
     {
       "institution": "Utrecht University",
@@ -39,7 +39,7 @@
       "studyType": "MS",
       "startDate": "",
       "endDate": "2017",
-      "score": "9",
+      "score": "9"
     },
     {
       "institution": "National Taiwan University",
@@ -48,7 +48,7 @@
       "studyType": "BS",
       "startDate": "",
       "endDate": "2015",
-      "score": "11",
+      "score": "11"
     }
   ],
   "work": [

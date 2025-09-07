@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Fieldwork
-description: 
-img: 
+description:
+img:
 importance: 2
 category: Others
 ---
 
 Although fieldwork is not a primary part of my current research, the opportunities I've had to support others remain some of my most cherished experiences. I hope to incorporate field data collection into my future work, contributing firsthand data to the research community.
+
 <div class="row row-cols-1 row-cols-md-3">
 <div class="col">
   <img src="/assets/img/research/field_soundscape.jpg" alt="Soundscape monitoring">
