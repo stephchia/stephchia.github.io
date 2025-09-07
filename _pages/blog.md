@@ -1,19 +1,20 @@
 ---
-layout: default
+layout: page
 permalink: /blog/
-title: blog
+title: Blog
+description: A small collection of bits and pieces with potential reuse value, including half-baked side projects, teaching materials, and data visualization tutorials.
 nav: true
-nav_order: 1
+nav_order: 4
 pagination:
   enabled: true
   collection: posts
   permalink: /page/:num/
-  per_page: 5
+  per_page: 15
   sort_field: date
   sort_reverse: true
   trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
+    before: 3 # The number of links before the current page
+    after: 5 # The number of links after the current page
 ---
 
 <div class="post">
@@ -31,6 +32,7 @@ pagination:
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
+<!--
   <div class="tag-category-list">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
@@ -55,7 +57,9 @@ pagination:
     </ul>
   </div>
   {% endif %}
+-->
 
+<!--
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
 <br>
@@ -75,6 +79,8 @@ pagination:
 </div>
 <h3 class="card-title text-lowercase">{{ post.title }}</h3>
 <p class="card-text">{{ post.description }}</p>
+
+
 
                     {% if post.external_source == blank %}
                       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -100,7 +106,7 @@ pagination:
     <hr>
 
 {% endif %}
-
+-->
   <ul class="post-list">
 
     {% if page.pagination.enabled %}

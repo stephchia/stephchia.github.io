@@ -1,6 +1,17 @@
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+html { 
+//    font-size: 18px; 
+//    line-height: 1.6; 
+}
+
+.zh {
+  font-family: "Klee One", cursive;
+  // font-family: "Yuji Boku", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 // Typography
 
@@ -61,7 +72,7 @@ blockquote {
   border-left: 5px solid var(--global-theme-color);
   margin: 1.5em 0;
   padding: 1em;
-  font-size: 1.2rem;
+  font-size: 1rem;
 
   p {
     margin-bottom: 0;
@@ -130,6 +141,42 @@ blockquote {
       color: var(--global-danger-block-title);
     }
   }
+    
+ /* box */
+  &.box1 {
+    border: 1px solid;
+    margin: 1.5em 0;
+    padding: 1em;
+    font-size: 1rem;
+    border-radius: 6px;
+    border-color: var(--global-divider-color);
+    background-color: var(--global-card-bg-color);
+
+    em, 
+    li, 
+    ul, 
+    p,
+    strong {
+      color: var(--global-text-color);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: var(--global-text-color);
+    }
+      
+    table {
+      td,
+      th {
+        font-size: 1rem;
+        padding: 8px 1rem 8px 0rem;
+      }
+    }
+  }
 }
 
 // Checklist
@@ -171,7 +218,6 @@ ul.task-list input[type="checkbox"] {
 
   .card-img {
     width: 100%;
-    padding-top: 1.25rem;
   }
 
   .card-title {
@@ -182,6 +228,7 @@ ul.task-list input[type="checkbox"] {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   }
 }
+
 
 // Citation
 
@@ -217,7 +264,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 25%;
 
     .address {
       p {
@@ -228,9 +275,14 @@ ul.task-list input[type="checkbox"] {
 }
 
 .post-description {
+  padding-top: 2rem;
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
 
+  p {
+    color: var(--global-text-color-mild);
+  }
+  
   a {
     color: inherit;
 
@@ -401,13 +453,14 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.7rem;
 
     a {
       img {
         width: 3.2rem;
         height: 3.2rem;
         margin-bottom: 1rem;
+        margin-right: 2rem;
       }
 
       svg {
@@ -554,7 +607,7 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -581,6 +634,8 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 .post-list {
@@ -596,13 +651,13 @@ footer.sticky-bottom {
 
     .post-meta {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
+      font-size: 0.95rem;
       margin-bottom: 0;
     }
 
     .post-tags {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
+      font-size: 0.95rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
     }
@@ -644,6 +699,36 @@ footer.sticky-bottom {
   }
 }
 
+// markdown in post
+/* Base body text inside the article */
+.post-content { font-size: 1rem; line-height: 1.6; margin-top: 1rem; margin-bottom: .75rem; }
+
+/* Headings inside the Markdown body */
+.post-content #markdown-content h1 { font-size: 3rem;  font-weight: 400; margin-top: 2rem; margin-bottom: .75rem; }
+.post-content #markdown-content h2 { font-size: 1.6rem;  font-weight: 400; margin-top: 2rem; margin-bottom: .75rem; }
+.post-content #markdown-content h3 { font-size: 1.4rem; font-weight: 400; margin-top: 2rem; margin-bottom: .75rem; }
+.post-content #markdown-content h4 { font-size: 1.2rem; font-weight: 400; margin-top: 2rem; margin-bottom: .75rem; }
+.post-content #markdown-content h5 { font-size: 1.1rem; font-weight: 400; margin-top: 2rem; margin-bottom: .75rem; }
+.post-content #markdown-content h6 { font-size: 0.9rem;  font-weight: 400; margin-top: 1rem; margin-bottom: .75rem; }
+
+.post-content #markdown-content ul,
+.post-content #markdown-content ol{
+  margin: .75rem 0 .75rem 0rem;
+}
+.post-content #markdown-content li + li{ margin-top: .25rem; }
+
+/* Top page/post title (from front matter `title:`) */
+//.post-title { font-size: 3rem; font-weight: 500; margin: 0 0 1rem; }
+
+//.post-content #markdown-content code{
+////  background: var(--global-code-bg-color);
+////  padding: .2em .4em;
+////  border-radius: 6px;
+//  line-height: 1;
+//  font-size: .8em;
+//}
+
+
 // diff2html - Fix for diff2html line number overflow
 
 .d2h-diff-table {
@@ -671,13 +756,26 @@ footer.sticky-bottom {
       }
     }
   }
+  .card-title {
+    color: var(--global-theme-color);
+  }
 
   .card {
     img {
       width: 100%;
+      padding: 1rem;
+      border-radius: 24px;
     }
   }
-
+  
+  .card-body .card-text {
+    font-size: 1rem;
+    font-weight: 100;
+    color: var(--global-text-color-mild);
+      
+    p, ul, li, h4, h5, h6 { color: inherit; }
+  }
+    
   .col {
     padding-bottom: 1rem;
   }
@@ -695,6 +793,34 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
+  }
+
+  .subtopic {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2em;
+  gap: 1em;
+  }
+
+  .subtopic-img {
+    width: 20%;
+    min-width: 100px;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 600px) {
+    .subtopic {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .subtopic-img {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 0.5em;
+    }
   }
 }
 
@@ -733,7 +859,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 3rem;
 
       .preview {
       }
@@ -763,10 +889,13 @@ footer.sticky-bottom {
       }
 
       .title {
+        color: var(--global-theme-color);
+        font-size: 1.1rem;
         font-weight: bolder;
       }
 
       .author {
+        color: var(--global-text-color-light);
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -777,8 +906,10 @@ footer.sticky-bottom {
         }
 
         > em {
+          color: var(--global-text-color-light);
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: bolder;
         }
 
         > span.more-authors {
@@ -802,6 +933,7 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          font-size: 0.65rem;
 
           &:hover {
             color: var(--global-theme-color);
@@ -887,6 +1019,7 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
+  line-height: 1.2;
 
   pre,
   code {
@@ -894,6 +1027,7 @@ pre {
     border-radius: 0;
     margin-bottom: 0;
     padding: 0;
+    font-size: 0.8rem;
   }
 }
 
@@ -917,13 +1051,13 @@ html.transition *:after {
 .post {
   .post-meta {
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: 0.95rem;
     margin-bottom: 0;
   }
 
   .post-tags {
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: 0.95rem;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
 
@@ -1128,7 +1262,7 @@ nav[data-toggle="toc"] {
 
   .post-meta {
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: 1rem;
     margin-bottom: 0;
     padding-top: 0.5rem;
   }

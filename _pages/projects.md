@@ -1,12 +1,13 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Research
+permalink: /research/
+description: My interest lies in leveraging the growing repository of biological and environmental data to explore large-scale ecological and environmental questions. I am particularly interested in exploring new approaches to understanding ecological processes, understanding how biodiversity may shift under environmental change, and developing strategies addressing global environmental challenges.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+nav_order: 1
+display_categories: [Focus, Others]
+one_column: [Focus, Others]
+# horizontal: true
 ---
 
 <!-- pages/projects.md -->
@@ -19,22 +20,24 @@ horizontal: false
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
+    
   <!-- Generate cards for each project -->
-  {% if page.horizontal %}
+  {% assign is_one_column = false %}
+  {% if page.one_column and page.one_column contains category %}
+    {% assign is_one_column = true %}
+  {% endif %}
+
   <div class="container">
+    {% if is_one_column %}
+    <div class="row row-cols-1 row-cols-md-1">
+    {% else %}
     <div class="row row-cols-1 row-cols-md-2">
+    {% endif %}
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
   {% endfor %}
 
 {% else %}
@@ -44,9 +47,13 @@ horizontal: false
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
   <!-- Generate cards for each project -->
-
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+<!--
 {% if page.horizontal %}
-
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}
@@ -61,5 +68,6 @@ horizontal: false
     {% endfor %}
   </div>
   {% endif %}
+-->
 {% endif %}
 </div>

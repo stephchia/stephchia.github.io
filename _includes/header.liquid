@@ -6,15 +6,20 @@
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
-              <span class="font-weight-bold">
+              <!--<span class="font-weight-bold">-->
                 {{- site.first_name -}}
-              </span>
+              <!--</span>-->
             {% endif %}
             {% if site.middle_name %}
               {{- site.middle_name -}}
             {% endif %}
             {% if site.last_name %}
               {{- site.last_name -}}
+            {% endif %}
+            {% if site.alternative_name %}
+              <span class="zh">
+                {{- site.alternative_name -}}
+              </span>
             {% endif %}
           {% else %}
             {{- site.title -}}

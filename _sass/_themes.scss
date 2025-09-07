@@ -9,9 +9,10 @@
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
+  --global-text-color-mild: rgba($black-color, 0.6);
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #{$cyan-color};
+  --global-hover-color: #{$cyan-color};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
@@ -19,7 +20,7 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
+  --global-highlight-color: #{$orange-color};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -30,18 +31,23 @@
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-tip-block: #0084C7;
+  --global-tip-block-bg: #DFF1FE;
+  --global-tip-block-text: #0084C7;
+  --global-tip-block-title: #0084C7;
+  --global-warning-block: #F59E0B;
+  --global-warning-block-bg: #FDF7DC;
+  --global-warning-block-text: #F59E0B;
+  --global-warning-block-title: #F59E0B;
+  --global-danger-block: #EF4444;
+  --global-danger-block-bg: #FEECEC;
+  --global-danger-block-text: #EF4444;
+  --global-danger-block-title: #EF4444;
+  --global-box1-border: #bbbbbb;
+  --global-box1-bg: #ffffff;
+  --global-box1-text: #215d42;
+  --global-box1-title: #2d767d;
+
 
   #light-toggle-system {
     padding-left: 10px;
@@ -81,6 +87,7 @@ html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
+  --global-text-color-mild: rgba($grey-color-light, 0.6);
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$cyan-color};
@@ -89,7 +96,7 @@ html[data-theme="dark"] {
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
+  --global-divider-color: #555555;
   --global-card-bg-color: #{$grey-900};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
@@ -100,19 +107,22 @@ html[data-theme="dark"] {
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
-
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-tip-block: #38ADE2;
+  --global-tip-block-bg: #2B363F;
+  --global-tip-block-text: #38ADE2;
+  --global-tip-block-title: #38ADE2;
+  --global-warning-block: #F59E0B;
+  --global-warning-block-bg: #3D372C;
+  --global-warning-block-text: #F59E0B;
+  --global-warning-block-title: #F59E0B;
+  --global-danger-block: #F77171;
+  --global-danger-block-bg: #4F2E30;
+  --global-danger-block-text: #F77171;
+  --global-danger-block-title: #F77171;
+  --global-box1-border: #444444;
+  --global-box1-bg: #202a30;
+  --global-box1-text: #ffffff;
+  --global-box1-title: #2d767d;
 
   .only-light {
     display: none;
