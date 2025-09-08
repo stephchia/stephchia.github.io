@@ -26,7 +26,7 @@ latest_posts:
 
 Hi! I'm a PhD candidate in Ecology & Evolution at the University of Maryland, working with [Bill Fagan](https://biology.umd.edu/people/william-fagan). I’m broadly interested in the ecological and evolutionary processes that shape biodiversity, drawing on large datasets of traits, phylogeny, species distributions, and environments.
 
-I grew up in Taiwan and studied biology at National Taiwan University, then earned a Master's in Sustainable Bussiness and Innovation at Utrecht University in the Netherlands. After working in environmental consulting, I discovered my interest in research and joined [Mao-Ning Tuanmu](https://biodiv.tw/pi-Mao-Ning_Tuanmu)'s lab at Academia Sinica, where I began my journey in ecological research.
+I grew up in Taiwan and studied biology at National Taiwan University, then earned a Master's in Sustainable Bussiness and Innovation at Utrecht University. After working in environmental consulting, I discovered my interest in research and joined [Mao-Ning Tuanmu](https://biodiv.tw/pi-Mao-Ning_Tuanmu)'s lab at Academia Sinica, where I began my journey in ecological research.
 
 Outside of research, I enjoy hiking and traveling, and occasionally biking, birding, scuba diving, and photography.
 

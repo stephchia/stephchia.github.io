@@ -14,7 +14,7 @@ toc:
 > Email | sychia@umd.edu
 > Location | College Park, Maryland, USA
 > Research interests | Ecoinformatics, Macroecology, Macroevolution, Sustainability
-> {: .box1 }
+{: .box1 }
 
 ### Education
 
@@ -22,12 +22,12 @@ toc:
 >
 > ---
 >
-> 2015--2017 | **M.S. Sustainable Business and Innovation**<br>Utrecht University, Netherlands
+> 2015--2017 | **M.S. Sustainable Business and Innovation**<br>Utrecht University, Netherlands<br>[Advisor: Agni Kalfagianni](https://www.eur.nl/en/people/agni-kalfagianni)
 >
 > ---
 >
 > 2010--2015 | **B.S. Life Science**<br>National Taiwan University, Taiwan
-> {: .box1 }
+{: .box1 }
 
 ### Employment history
 
@@ -36,7 +36,7 @@ toc:
 > ---
 >
 > 2017--2019 | **Assistant Engineer**<br>SGS Ltd., Taiwan<br>[Climate Change Adaptation Team](https://www.sgs.com.tw/en/service/page/85/2/86-environment-health-and-safety/504-climate-change-innovative-actions)
-> {: .box1 }
+{: .box1 }
 
 ### Publications
 
@@ -55,7 +55,7 @@ toc:
 > ---
 >
 > Tsai P-Y, Ko C-J, **Chia SY**, Lu Y-J, Tuanmu M-N. (2021). New insights into the patterns and drivers of avian altitudinal migration from a growing crowdsourcing data source. [Ecography](https://doi.org/10.1111/ecog.05196).
-> {: .box1 }
+{: .box1 }
 
 > ##### Upcoming
 >
@@ -64,7 +64,7 @@ toc:
 > ---
 >
 > **Chia SY**, Tsai-Chen Y, Tuanmu M-N, Fagan WF. Evolution of enclosed nests in birds driven by predation and climate challenges. in review.
-> {: .box1 }
+{: .box1 }
 
 ### Presentations
 
@@ -76,14 +76,14 @@ toc:
 > 2023 | American Ornithological Society and Society of Canadian Ornithologists, London, ON, Canada.
 > 2022 | Belmont Forum Climate Environment and Health Early Career Researcher Workshop, virtual.
 > 2021 | Congress of Animal Behavior and Ecology, Taiwan, virtual.
-> {: .box1 }
+{: .box1 }
 
 > ##### Posters
 >
 > 2024 | American Ornithological Society, Estes Park, CO, USA.
 > 2021 | Ecological Society of America, virtual.
 > 2020 | British Ecological Society, virtual.
-> {: .box1 }
+{: .box1 }
 
 ### Honors and awards
 
@@ -95,7 +95,7 @@ toc:
 > 2023 | Outstanding Graduate Teaching Assistant Award, UMD ($331)
 > 2022 | Global STEWARDS Fellowship at UMD, National Science Foundation (fully funded one-year traineeship and research trip to Nepal)
 > 2021--2022 | Dean’s Fellowship, UMD ($5,000)
-> {: .box1 }
+{: .box1 }
 
 > ##### Travel grants
 >
@@ -107,16 +107,26 @@ toc:
 > 2023 | International Conference Student Support Award, UMD ($500)
 > 2023 | American Ornithological Society Travel Award ($561)
 > 2021 | Ecological Society of America Registration Grant
-> {: .box1 }
+{: .box1 }
 
 ### Teaching
 
 > ##### University of Maryland
 >
-> HNUH258C Nature at Risk: Extinction, Consequences, and Strategies | Teaching assistant (Fall 2025)
-> BSCI462/BIOL708R Population Ecology | Guest lecturer (Spring 2025)<br>Teaching assistant (Spring 2024)
-> BSCI201 Human Anatomy and Physiology | Teaching assistant (Sping & Fall 2022, Spring & Fall 2023)
-> {: .box1 }
+> Teaching assistant (Fall 2025), HNUH258C Nature at Risk: Extinction, Consequences, and Strategies
+>
+> ---
+>
+> Guest lecturer (Spring 2025), BSCI462/BIOL708R Population Ecology
+>
+> ---
+>
+> Teaching assistant (Spring 2024), BSCI462/BIOL708R Population Ecology
+>
+> ---
+>
+> Teaching assistant (Sping & Fall 2022, Spring & Fall 2023), BSCI201 Human Anatomy and Physiology
+{: .box1 }
 
 ### Service , outreach, non-academic projects
 
@@ -153,7 +163,7 @@ toc:
 > ---
 >
 > <details><summary>2014&nbsp;&nbsp; <b>Climate-adaptive strategies with organic tea farmers, Taiwan</b></summary><br>Collaborated with tea farmers to predict harvest timing with local microclimate station and to investigate the possibility of using selective weed cultivation to reduce weeding labor</details>
-> {: .box1 }
+{: .box1 }
 
 ### Skills
 
@@ -170,4 +180,4 @@ toc:
 > ---
 >
 > **Other skills and credentials** <br>`WMA Wilderness First Responder`<br>`PADI Advanced Open Water Diver`<br>`NCMW Adult Mental Health First Aid certification`<br>[`Photography`](https://www.flickr.com/photos/stephaniechia/)
-> {: .box1 }
+{: .box1 }
