@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /blog/
-title: Blog
+permalink: /posts/
+title: Posts
 description: A small collection of bits and pieces with potential reuse value, including half-baked side projects, teaching materials, and data visualization tutorials.
 nav: true
 nav_order: 4
