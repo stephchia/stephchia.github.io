@@ -26,7 +26,7 @@ toc:
 >
 > ---
 >
-> 2010--2015 | **B.S. Life Science**<br>National Taiwan University, Taiwan
+> 2010--2015 | **B.S. Life Science**<br>National Taiwan University, Taiwan<br>exchange student at the University of British Columbia, Canada (2013)
 {: .box1 }
 
 ### Employment history
@@ -163,6 +163,13 @@ toc:
 > ---
 >
 > <details><summary>2014&nbsp;&nbsp; <b>Climate-adaptive strategies with organic tea farmers, Taiwan</b></summary><br>Collaborated with tea farmers to predict harvest timing with local microclimate station and to investigate the possibility of using selective weed cultivation to reduce weeding labor</details>
+{: .box1 }
+
+### Society membership
+
+> Ecological Society of America<br>
+> American Ornithological Society<br>
+> Sigma Xi
 {: .box1 }
 
 ### Skills
