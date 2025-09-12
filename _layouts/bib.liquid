@@ -246,6 +246,9 @@
       {% if entry.data %}
         <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button">Data</a>
       {% endif %}
+      {% if entry.summary %}
+        <a href="{{ entry.summary }}" class="btn btn-sm z-depth-0" role="button">Summary</a>
+      {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
           <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>

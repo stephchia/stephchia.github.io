@@ -8,7 +8,7 @@ importance: 3
 category: Focus
 ---
 
-I am interested in using data and quantitative approaches to explore sustainability challenges. My projects, both academic and non-academic, have included:
+I am interested in applying data-driven approaches to sustainability challenges. My projects, both academic and non-academic, have included:
 
 - **Food system efficiency**: optimizing crop distributions for water savings and yield (ongoing); reducing food waste from foodservice providers by predicting consumption patterns
 - **Energy use and urban cooling**: analyzing demographic effects on household electricity use; evaluating roof coatings as a strategy for urban cooling

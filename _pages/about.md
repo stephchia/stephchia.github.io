@@ -24,10 +24,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm a PhD candidate in Ecology & Evolution at the University of Maryland, working with [Bill Fagan](https://biology.umd.edu/people/william-fagan). I’m broadly interested in using quantitative tools to understand the ecological and evolutionary processes that shape biodiversity, drawing on large datasets of traits, phylogeny, species distributions, and environments. (Learn more about my research [here](/research))
+Hi! I'm a PhD candidate in ecology & evolution at the University of Maryland, working with [Bill Fagan](https://biology.umd.edu/people/william-fagan). My research uses quantitative tools to understand the ecological and evolutionary processes that shape biodiversity, drawing on large datasets of traits, phylogeny, species distributions, and environments. (Learn more about my research [here](/research))
 
-I grew up in Taiwan and studied biology at National Taiwan University, then earned a Master's in Sustainable Business and Innovation at Utrecht University in the Netherlands. After working in environmental consulting, I discovered my interest in research and joined [Mao-Ning Tuanmu](https://biodiv.tw/pi-Mao-Ning_Tuanmu)'s lab at the Biodiversity Research Center, Academia Sinica, where I began my journey in ecological research.
+I grew up in Taiwan and studied biology at National Taiwan University, then earned a Master's in sustainability and innovation at Utrecht University in the Netherlands. After working in environmental consulting, I discovered my interest in research and joined [Mao-Ning Tuanmu](https://biodiv.tw/pi-Mao-Ning_Tuanmu)'s lab at the Biodiversity Research Center, Academia Sinica, where I began my journey in ecological research.
 
-Outside of research, I enjoy hiking and traveling, and occasionally biking, birding, scuba diving, and photography.
+Outside of research, I enjoy hiking and traveling, and occasionally biking, birding, or scuba diving.
 
 If all goes as planned, I'll be graduating in Spring 2026, and I'd be happy to connect about potential research opportunities.
