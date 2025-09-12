@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Teaching has been a deeply rewarding aspect of my doctoral journey, where I learned a great deal from both inspirational mentors and students. I gained experience in engaging with diverse audiences, including lower- and upper-level college students, graduate students, children and the general public.",
+          description: "Teaching has been a deeply rewarding aspect of my doctoral journey. I&#39;ve learned a great deal not only from inspirational mentors, but also from my students and the wider community.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
