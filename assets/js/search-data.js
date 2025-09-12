@@ -37,13 +37,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/posts/index.html";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-mapping-roadkill-risk-in-taiwan-with-maxent",
         
           title: "Mapping roadkill risk in Taiwan with MaxEnt",
