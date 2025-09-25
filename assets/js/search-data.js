@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "Research",
-          description: "My interest lies in leveraging the growing repository of biological and environmental data to explore large-scale ecological and environmental questions. I am particularly interested in exploring new approaches to understanding ecological processes, understanding how biodiversity may shift under environmental change, and developing strategies addressing global environmental challenges.",
+          description: "My interest lies in leveraging the growing repository of data to explore large-scale ecological and environmental questions. I am particularly interested in exploring new approaches to study ecological and evolutionary processes, understanding how biodiversity responds to environmental change, and informing strategies to address global environmental challenges.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
