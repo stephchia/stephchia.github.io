@@ -4,7 +4,7 @@ title: Unoccupied spaces in trait landscapes
 <!--description: -->
 img: /assets/img/research/birdtda3.png
 importance: 1
-category: Focus
+category: Main Themes
 <!--related_publications: true-->
 ---
 
@@ -12,5 +12,5 @@ Why do some seemingly viable life forms not exist? I use [topological data analy
 
 Current and prospective projects under this theme:
 
-- **Macroevolutionary constraints of bird morphology**: We identified a viable body form missing from a large group of songbirds, explained by niche preemption from early-arriving lineages (paper submitted). I am interested in extending this framework to other taxa and trait systems.
-- **Community assembly and invasion**: I am interested in identifying gaps in biological communities to investigate assembly processes and invasion risk.
+- **Macroevolutionary constraints of bird morphology**: We identified a viable body form missing from a large group of songbirds, explained by niche preemption from early-arriving lineages (paper in review). I am extending this framework to bird feather color space, and potentially other taxa and trait systems.
+- **Community assembly and invasion**: I am interested in identifying functional gaps in biological communities to investigate assembly processes and invasion risk.
