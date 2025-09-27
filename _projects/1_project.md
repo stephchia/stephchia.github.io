@@ -12,5 +12,5 @@ Why do some seemingly viable life forms not exist? I use [topological data analy
 
 Current and prospective projects under this theme:
 
-- **Macroevolutionary constraints of bird morphology**: We identified a viable body form missing from a large group of songbirds, explained by niche preemption from early-arriving lineages (paper in review). I am extending this framework to bird feather color space, and potentially other taxa and trait systems.
+- **Macroevolutionary constraints of bird morphology**: We identified a viable body form missing from a large group of songbirds, explained by niche preemption from early-arriving lineages ([Chia et al. preprint](https://doi.org/10.1101/2025.09.24.678290)). I am extending this framework to bird feather color space, and potentially other taxa and trait systems.
 - **Community assembly and invasion**: I am interested in identifying functional gaps in biological communities to investigate assembly processes and invasion risk.
