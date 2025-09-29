@@ -2,13 +2,12 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
-# email: sychia@umd.edu # your email address
 linkedin_username: stephanie-y-chia # your LinkedIn user name
 research_gate_profile: Stephanie-Chia-6 # your profile on ResearchGate
 orcid_id: 0000-0003-1201-4445 # your ORCID ID
 github_username: stephchia # your GitHub user name
 flickr_id: stephaniechia
-
+# email: sychia@umd.edu # your email address
 # academia_edu:  your organization and your username Ex. https://organization.academia.edu/UserName
 #  organization: princeton # your organization as appears in the subdomain
 #  username:  AlbertEinstein # your username
