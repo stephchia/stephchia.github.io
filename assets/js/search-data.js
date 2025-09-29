@@ -154,13 +154,6 @@ ninja.data = [{
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/4_teaching/";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%73%79%63%68%69%61@%75%6D%64.%65%64%75", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -173,6 +166,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.researchgate.net/profile/Stephanie-Chia-6/", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-1201-4445", "_blank");
         },
       },{
         id: 'social-github',
