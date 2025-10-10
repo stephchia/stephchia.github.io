@@ -4,7 +4,7 @@ title: Traits as drivers of macroecological patterns
 <!--description: -->
 img: /assets/img/research/birdnest.png
 importance: 2
-category: Main Themes
+category: Main themes
 <!--giscus_comments: false-->
 ---
 

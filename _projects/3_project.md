@@ -5,7 +5,7 @@ title: Quantitative approaches to sustainable solutions
 img: assets/img/research/crop.png
 <!--redirect: https://unsplash.com-->
 importance: 3
-category: Main Themes
+category: Main themes
 ---
 
 I am interested in applying data-driven approaches to sustainability challenges. My projects, both academic and non-academic, have included:

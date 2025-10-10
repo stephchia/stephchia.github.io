@@ -4,7 +4,7 @@ title: Unoccupied spaces in trait landscapes
 <!--description: -->
 img: /assets/img/research/birdtda3.png
 importance: 1
-category: Main Themes
+category: Main themes
 <!--related_publications: true-->
 ---
 

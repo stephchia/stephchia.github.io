@@ -5,8 +5,8 @@ permalink: /research/
 description: My interest lies in leveraging the growing repository of data to explore large-scale ecological and environmental questions. I am particularly interested in exploring new approaches to study ecological and evolutionary processes, understanding how biodiversity responds to environmental change, and informing strategies to address global environmental challenges.
 nav: true
 nav_order: 1
-display_categories: [Main Themes, Others]
-one_column: [Main Themes, Others]
+display_categories: [Main themes, Others]
+one_column: [Main themes, Others]
 # horizontal: true
 ---
 
