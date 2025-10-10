@@ -161,6 +161,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/stephanie-y-chia", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=jIYJt5YAAAAJ", "_blank");
+        },
+      },{
         id: 'social-researchgate',
         title: 'ResearchGate',
         section: 'Socials',
