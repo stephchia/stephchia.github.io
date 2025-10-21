@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Extinction and conservation
+title: Extinction risk and strategies
 img: assets/img/teaching/aispecies.png
 importance: 1
 category: University of Maryland
@@ -11,4 +11,4 @@ Role:<br>&nbsp; |**Teaching assistent** (Fall 2025)<br>**Assisting material deve
 
 ---
 
-I worked with the course instructor to develop materials for a new course in the Biology Honors Program using generative AI. To help students apply learned concepts to prioritize conservation targets without bias from preexisting knowledge of real species, I created a diverse set of fictional species spanning a wide range of life-history traits, population statuses, and human utitilies.
+I worked with the course instructor to develop materials for a new University Honors Program course that explore the biological, geographical, and matehmatical concepts realtead to extinction risk. To help students apply learned concepts in conservation prioritization without bias from preexisting knowledge of real species, I used generative AI to create a diverse set of fictional species with varying life-history traits, spatial distributions, population statuses, and human utitilies.
