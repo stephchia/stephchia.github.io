@@ -30,6 +30,6 @@ I grew up in Taiwan and studied biology at National Taiwan University, then earn
 
 Learn more about my research [here](/research), and find my CV [here](/folder/cv.pdf).
 
-Outside of research, I enjoy hiking and traveling, and occasionally biking, casual birdwatching (love tagging along with real birders), or scuba diving.
+Outside of research, I enjoy hiking and traveling, and occasionally biking, birding (casual, love tagging along with the pros), or scuba diving.
 
 If all goes as planned, I'll be graduating in Spring 2026, and I'd be happy to connect about potential research opportunities.
