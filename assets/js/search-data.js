@@ -143,8 +143,8 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/2_teaching/";
-            },},{id: "teaching-extinction-risk-and-strategies",
-          title: 'Extinction risk and strategies',
+            },},{id: "teaching-extinction-risk",
+          title: 'Extinction risk',
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/3_teaching/";
