@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Teaching has been a deeply rewarding aspect of my doctoral journey. I&#39;ve learned a great deal not only from inspirational mentors, but also from my students and the wider community.",
+          description: "Teaching has been a deeply rewarding aspect of my doctoral journey, enriched by inspiring mentors and by learning alongside my students and the broader communities.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -108,13 +108,13 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-unoccupied-spaces-in-trait-landscapes",
-          title: 'Unoccupied spaces in trait landscapes',
+          section: "News",},{id: "projects-unoccupied-trait-spaces",
+          title: 'Unoccupied trait spaces',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-traits-as-drivers-of-macroecological-patterns",
-          title: 'Traits as drivers of macroecological patterns',
+            },},{id: "projects-trait-based-macroecology-and-community-ecology",
+          title: 'Trait-based macroecology and community ecology',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
