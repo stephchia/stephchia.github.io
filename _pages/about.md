@@ -24,11 +24,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm a PhD candidate in ecology & evolution at the University of Maryland, working with [Bill Fagan](https://biology.umd.edu/people/william-fagan). My research applies quantitative tools and large ecological datasets to understand the ecological and evolutionary processes that shape biodiversity.
+Hi! I'm a PhD candidate in ecology & evolution at the University of Maryland, working with [Bill Fagan](https://biology.umd.edu/people/william-fagan). My research uses quantitative tools and large ecological datasets to understand the ecological and evolutionary processes that shape biodiversity.
 
-I grew up in Taiwan and studied biology at National Taiwan University, then earned a Master's in sustainability and innovation at Utrecht University in the Netherlands. After working in environmental consulting, I discovered my interest in research and joined [Mao-Ning Tuanmu](https://biodiv.tw/pi-Mao-Ning_Tuanmu)'s lab at the Biodiversity Research Center, Academia Sinica, where I began my journey in ecological research.
-
-Learn more about my research [here](/research), and find my CV [here](/folder/cv.pdf).
+I grew up in Taiwan and studied biology at National Taiwan University, followed by a Master's in sustainability and innovation at Utrecht University in the Netherlands. After working in environmental consulting, I discovered my interest in research and joined [Mao-Ning Tuanmu](https://biodiv.tw/pi-Mao-Ning_Tuanmu)'s lab at the Biodiversity Research Center, Academia Sinica, where I began my journey in ecological research. Learn more about my [research here](/research), and find my <a href="/folder/cv.pdf" target="_blank" rel="noopener noreferrer">CV here</a>.
 
 Outside of research, I enjoy hiking and traveling, and occasionally biking, birding (casual, love tagging along with the pros), or scuba diving.
 

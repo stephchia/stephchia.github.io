@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Teaching has been a deeply rewarding aspect of my doctoral journey. I've learned a great deal not only from inspirational mentors, but also from my students and the wider community.
+description: Teaching has been a deeply rewarding aspect of my doctoral journey, enriched by inspiring mentors and by learning alongside my students and the broader communities.
 nav: true
 nav_order: 3
 display_categories: [University of Maryland, Outreach]
