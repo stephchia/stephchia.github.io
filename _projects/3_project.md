@@ -12,4 +12,6 @@ I am interested in applying data-driven approaches to sustainability challenges.
 
 - **Food system efficiency**: optimizing crop distributions for water savings and yield (ongoing); reducing food waste from foodservice providers by predicting consumption patterns
 - **Energy use and urban cooling**: analyzing demographic effects on household electricity use; evaluating roof coatings as a strategy for urban cooling
-- **Sustainable agriculture**: working with organic tea farmers on strategies to reduce weeding labor and predict harvest timing using microclimate monitoring
+- **Sustainable agriculture**: working with organic tea farmers on strategies to reduce weeding labor and predict harvest timing using microclimate monitoring.
+
+These projects, many from earlier stages of my training and experience, illustrate the kinds of topics that motivate me. Moving forward, I aim to continue exploring how quantitative tools can contribute creatively to practical solutions.

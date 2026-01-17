@@ -11,6 +11,4 @@ Role: |**Teaching assistent** (Spring 2022, Fall 2022, Spring 2023, and Fall 202
 
 ---
 
-I taught anatomy lab sections twice a week as part of the course. To make this memorization-heavy subject more engaging, I incorporated active learning activities and developed online games as study aids. These resources were adopted course-wide and remain in use beyond my teaching term, supporting ~800 students annually.
-
-Teaching anatomy became a formative learning experience that shaped my broader interest in morphological structure, later influencing aspects of my research on bird morphology.
+I taught anatomy lab sections twice a week for four semesters as part of the course (with lectures on physiology taught by the course instructor). To make this memorization-heavy subject more engaging, I incorporated active learning activities and developed online games as study aids. These games became widely used and are now a regular resource for the ~800 students who take the course each year.
