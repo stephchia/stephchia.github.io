@@ -7,7 +7,7 @@ importance: 2
 category: Others
 ---
 
-Although fieldwork is not a primary part of my current research, supporting fiel projects has been some of my most cherished experiences. I hope to incorporate field data collection into future work and contribute firsthand observations to the research community.
+Although fieldwork is not a primary part of my current research, supporting field projects has been some of my most cherished experiences. I hope to incorporate field data collection into future work and contribute firsthand observations to the research community.
 
 <div class="row row-cols-1 row-cols-md-3">
 <div class="col">
