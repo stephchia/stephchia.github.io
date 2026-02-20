@@ -30,4 +30,4 @@ I studied biology at National Taiwan University and completed a master's degree 
 
 Outside of research, I enjoy hiking and traveling, and occasionally biking, birding (casual, love tagging along with the pros), or scuba diving.
 
-If all goes as planned, I'll be graduating in Spring 2026, and I'd be happy to connect about potential research opportunities.
+I expect to graduate in Spring 2026 and would be happy to connect about potential research and job opportunities!
