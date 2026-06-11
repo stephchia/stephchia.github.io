@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "Research",
-          description: "My interest lies in leveraging the growing repository of data to explore large-scale ecological and environmental questions. I am particularly interested in exploring new approaches to study ecological and evolutionary processes, understanding how biodiversity responds to environmental change, and informing strategies to address global environmental challenges.",
+          description: "Why does biodiversity take the forms we observe, and why do traits vary across environments and species? I investigate these questions across broad spatial and taxonomic scales using comparative approaches that integrate biodiversity and environmental datasets, museum collections, and quantitative methods.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -108,28 +108,28 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-unoccupied-trait-spaces",
-          title: 'Unoccupied trait spaces',
+          section: "News",},{id: "projects-constraints-in-trait-diversity",
+          title: 'Constraints in trait diversity',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-trait-based-macroecology-and-community-ecology",
-          title: 'Trait-based macroecology and community ecology',
+            },},{id: "projects-ecological-drivers-of-trait-variation",
+          title: 'Ecological drivers of trait variation',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-quantitative-approaches-to-sustainable-solutions",
-          title: 'Quantitative approaches to sustainable solutions',
+            },},{id: "projects-sustainability-and-data-driven-solutions",
+          title: 'Sustainability and data-driven solutions',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-animal-movement-behavior",
-          title: 'Animal movement behavior',
+            },},{id: "projects-animal-movement-and-behavior",
+          title: 'Animal movement and behavior',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-fieldwork",
-          title: 'Fieldwork',
+            },},{id: "projects-fieldwork-collections-and-biodiversity-data",
+          title: 'Fieldwork, collections, and biodiversity data',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
