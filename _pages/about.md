@@ -24,10 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm a PhD candidate in ecology & evolution at the University of Maryland, working with [Bill Fagan](https://biology.umd.edu/people/william-fagan). My research uses quantitative tools and large ecological datasets to understand the ecological and evolutionary processes that shape biodiversity.
+Hi! I'm an incoming Peter Buck Postdoctoral Fellow at the Smithsonian National Museum of Natural History. I study how ecological and evolutionary processes shape organismal trait variation across space and time using large-scale datasets, museum collections, and computational approaches. You can learn more about my [research here](/research).
 
-I studied biology at National Taiwan University and completed a master's degree in sustainability and innovation at Utrecht University. After working in environmental consulting, I joined [Mao-Ning Tuanmu](https://biodiv.tw/pi-Mao-Ning_Tuanmu)'s lab at the Academia Sinica, where I discovered my interest in ecological research and found myself happily going further down that road. Learn more about my [research here](/research), and find my <a href="/folder/cv.pdf" target="_blank" rel="noopener noreferrer">CV here</a>.
+I recently completed my PhD with [Bill Fagan](https://biology.umd.edu/people/william-fagan) at the University of Maryland. Before coming to the US, I studied biology in Taiwan, sustainability in the Netherlands, and worked with [Mao-Ning Tuanmu](https://biodiv.tw/pi-Mao-Ning_Tuanmu) at Academia Sinica. You can also find my <a href="/folder/cv.pdf" target="_blank" rel="noopener noreferrer">CV here</a>.
 
-Outside of research, I enjoy hiking and traveling, and occasionally biking, birding (casual, love tagging along with the pros), or scuba diving.
-
-I expect to graduate in Spring 2026 and would be happy to connect about potential research and job opportunities!
+Outside of research, I enjoy hiking, traveling, and watching wildlife (always happy to tag along with the pros).
