@@ -24,8 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm an incoming Peter Buck Postdoctoral Fellow at the Smithsonian National Museum of Natural History. I study how ecological and evolutionary processes shape organismal trait variation across space and time using large-scale datasets, museum collections, and computational approaches. You can learn more about my [research here](/research).
+Hi! I'm a Peter Buck Postdoctoral Fellow at the Smithsonian National Museum of Natural History. I study how ecological and evolutionary processes shape organismal trait variation across space and time using large-scale datasets, museum collections, and computational approaches. You can learn more about my [research here](/research).
 
-I recently completed my PhD with [Bill Fagan](https://biology.umd.edu/people/william-fagan) at the University of Maryland. Before coming to the US, I studied biology in Taiwan, sustainability in the Netherlands, and worked with [Mao-Ning Tuanmu](https://biodiv.tw/pi-Mao-Ning_Tuanmu) at Academia Sinica. You can also find my <a href="/folder/cv.pdf" target="_blank" rel="noopener noreferrer">CV here</a>.
+I did my PhD with [Bill Fagan](https://biology.umd.edu/people/william-fagan) at the University of Maryland. Before coming to the US, I studied biology in Taiwan, sustainability in the Netherlands, and worked with [Mao-Ning Tuanmu](https://biodiv.tw/pi-Mao-Ning_Tuanmu) at Academia Sinica. You can also find my <a href="/folder/cv.pdf" target="_blank" rel="noopener noreferrer">CV here</a>.
 
 Outside of research, I enjoy hiking, traveling, and watching wildlife (always happy to tag along with the pros).
